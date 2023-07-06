@@ -83,7 +83,7 @@ body {
 /* #region Main */
 
 main {
-    background-color: aquamarine;
+    background-color: var(--zoom-black);
     overflow-y: auto;
     height: calc(100vh - 40px - 40px);
     padding-top: 6rem;
