@@ -27,10 +27,14 @@ body {
 
 #head_site, #foot_site {
     width: 100%;
-    padding: 0.5rem;
     position: fixed;
     z-index: 100;
 }
+
+.row {
+    flex-wrap: wrap;
+}
+
 
 
 /* #endregion Common */
@@ -58,6 +62,7 @@ body {
 #head_site {
     height: 40px;
     background-color: var(--zoom-black);
+    padding: 0.5rem;
 }
 
 .h_menu {
@@ -92,9 +97,6 @@ main {
     /* max-width: 1170px; */
 }
 
-.row {
-    flex-wrap: wrap;
-}
 
 .col {
     width: calc(100% / 7);
@@ -127,7 +129,68 @@ main {
 #foot_site {
     height: 80px;
     background-color: var(--zoom-dark);
+    line-height: 2.2;
 }
+
+
+
+.central_menu {
+    width: calc(100% / 12 * 10);
+    flex-wrap: wrap;  
+}
+
+.av_menu, .central_menu {
+    padding: 0.5rem;
+}
+
+.av_menu, .end_meet {
+    width: calc(100% / 12 * 1);
+    /* background-color: #ea1026;
+    height: 100%; */
+    /* gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+}
+
+.foot_row {
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+
+.foot_centr {
+    justify-content: center;
+    gap: 2.5rem;
+    
+}
+
+.succes {
+    color: var(--zoom-succes);
+}
+
+.actions {
+    text-align: center;
+    position: relative;
+    
+}
+
+.arrow {
+    position: absolute;
+    left: -2.8rem;
+}
+
+.end_meet {
+    background-color: var(--zoom-light);
+    color: var(--zoom-attention);
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+
+
 
 
 /* #endregion Footer */
