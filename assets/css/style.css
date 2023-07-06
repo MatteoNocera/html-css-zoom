@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 800px;
+    color: var(--zoom-white);
+}
+
 :root {
     --zoom-black: #000000;
     --zoom-dark: #222222;
@@ -14,7 +19,45 @@
     --zoom-succes: #4bc800;
 }
 
+.d_flez {
+    display: flex;
+}
 
 
 
 /* #endregion Common */
+
+/* #region Debug */
+
+
+
+
+
+/* #endregion Debug */
+
+/* #region Header */
+
+#head_site {
+    height: 40px;
+    width: 100%;
+    background-color: var(--zoom-black);
+    position: fixed;
+    z-index: 10;
+    padding: 0.5rem;
+}
+
+.h_menu {
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+.view_menu, .full_menu {
+    background-color: var(--zoom-light);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    color: var(--zoom-white);
+}
+
+
+/* #endregion Header */
+
