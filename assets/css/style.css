@@ -6,8 +6,10 @@
 }
 
 body {
-    min-width: 800px;
+    /* min-width: 800px; */
     color: var(--zoom-white);
+    
+    
 }
 
 :root {
@@ -23,6 +25,12 @@ body {
     display: flex;
 }
 
+#head_site, #foot_site {
+    width: 100%;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 100;
+}
 
 
 /* #endregion Common */
@@ -30,7 +38,17 @@ body {
 /* #region Debug */
 
 
+.debug .container {
+    height: 5000px;
+    background-color: aquamarine;
+    
+}
 
+.debug .col {
+    background-color: #4bc800;
+    height: 500px;
+    border: 1px dashed;
+}
 
 
 /* #endregion Debug */
@@ -39,11 +57,7 @@ body {
 
 #head_site {
     height: 40px;
-    width: 100%;
     background-color: var(--zoom-black);
-    position: fixed;
-    z-index: 10;
-    padding: 0.5rem;
 }
 
 .h_menu {
@@ -60,4 +74,61 @@ body {
 
 
 /* #endregion Header */
+
+/* #region Main */
+
+main {
+    background-color: aquamarine;
+    overflow-y: auto;
+    height: calc(100vh - 40px - 40px);
+    padding-top: 6rem;
+    /* width: 1920px;
+    margin: auto; */
+
+}
+.container {
+    width: 95%;
+    margin: auto;
+    /* max-width: 1170px; */
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100% / 7);
+    padding: 0.3rem;
+
+}
+
+.card {
+    background-image:url(https://picsum.photos/140);
+    background-size: cover;
+    height: 140px;
+    position: relative;
+
+}
+
+.user {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--zoom-light);
+    padding: 0.2rem;
+}
+
+
+
+/* #endregion Main */
+
+
+/* #region Footer */
+
+#foot_site {
+    height: 80px;
+    background-color: var(--zoom-dark);
+}
+
+
+/* #endregion Footer */
 
