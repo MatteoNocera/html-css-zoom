@@ -1,0 +1,20 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --zoom-black: #000000;
+    --zoom-dark: #222222;
+    --zoom-light: #4a4a4a;
+    --zoom-white: #fefefe;
+    --zoom-attention: #ea1026;
+    --zoom-succes: #4bc800;
+}
+
+
+
+
+/* #endregion Common */
