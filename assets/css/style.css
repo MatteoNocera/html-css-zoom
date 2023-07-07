@@ -62,12 +62,13 @@ body {
 #head_site {
     height: 40px;
     background-color: var(--zoom-black);
-    padding: 0.5rem;
 }
 
 .h_menu {
     justify-content: end;
     gap: 0.5rem;
+    height: 100%;
+    align-items: center;
 }
 
 .view_menu, .full_menu {
@@ -99,7 +100,7 @@ main {
 
 
 .col {
-    width: calc(100% / 7);
+    width: 250px;
     padding: 0.3rem;
 
 }
