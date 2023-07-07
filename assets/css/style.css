@@ -104,13 +104,71 @@ main {
 
 }
 
+/* #region Card */
+
 .card {
-    background-image:url(https://picsum.photos/140);
+    background-image:url(https://picsum.photos/300/200?random=1);
     background-size: cover;
     height: 140px;
     position: relative;
 
 }
+
+.random_2 {
+    background-image:url(https://picsum.photos/300/200?random=2);
+}
+
+.random_3 {
+    background-image:url(https://picsum.photos/300/200?random=3);
+}
+
+.random_4 {
+    background-image:url(https://picsum.photos/300/200?random=4);
+}
+
+.random_5 {
+    background-image:url(https://picsum.photos/300/200?random=5);
+}
+
+.random_6 {
+    background-image:url(https://picsum.photos/300/200?random=6);
+}
+
+.random_7 {
+    background-image:url(https://picsum.photos/300/200?random=7);
+}
+
+.random_8 {
+    background-image:url(https://picsum.photos/300/200?random=8);
+}
+
+.random_9 {
+    background-image:url(https://picsum.photos/300/200?random=9);
+}
+
+.random_10 {
+    background-image:url(https://picsum.photos/300/200?random=10);
+}
+
+.random_11 {
+    background-image:url(https://picsum.photos/300/200?random=11);
+}
+
+.random_12 {
+    background-image:url(https://picsum.photos/300/200?random=12);
+}
+
+.random_13 {
+    background-image:url(https://picsum.photos/300/200?random=13);
+}
+
+.random_14 {
+    background-image:url(https://picsum.photos/300/200?random=14);
+}
+
+/* #endregion Card */
+
+
 
 .user {
     position: absolute;
@@ -141,6 +199,7 @@ main {
 
 .av_menu, .central_menu {
     padding: 0.5rem;
+    min-width: 3rem;
 }
 
 .av_menu, .end_meet {
